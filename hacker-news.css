@@ -1,0 +1,43 @@
+body {
+	background-color: #FFFFFF;
+}
+#hnmain {
+	background-color: #FFFDFC;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.pagetop, .pagetop a {
+	color: white!important;
+}
+table > tbody > tr > td > a > svg {
+	width: 20;
+	height: 20;
+	border: 2px solid white!important;
+	margin: 2px;
+}
+.votearrow {
+	width: 0;
+	height: 0;
+	background: none;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 8px solid #DBDBDA;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.title {
+	font-family: 'Roboto', 'Helvetica Neue', 'Liberation Sans', sans-serif;
+}
+.title a {
+	color: #53504D;
+	font-weight: 500;
+}
+.title a:visited {
+	color: #FB882D;
+}
+.rank {
+	display: none;
+}
+.morelink {
+	float: right;
+	color: #FB882D;
+}
